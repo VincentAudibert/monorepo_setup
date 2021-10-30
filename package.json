@@ -1,0 +1,13 @@
+{
+  "name": "monorepo_setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VincentAudibert/monorepo_setup.git",
+  "author": "Vincent AUDIBERT <vincent.audib@gmail.com>",
+  "license": "none",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": ["packages/*"]
+}
